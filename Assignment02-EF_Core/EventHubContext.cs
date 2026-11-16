@@ -26,4 +26,5 @@ public class EventHubContext : DbContext
         modelBuilder.ApplyConfiguration(new EventConfiguration());
         modelBuilder.ApplyConfiguration(new BadgeConfiguration());
     }
+
 }
